@@ -10,6 +10,8 @@ function App() {
     JSON.parse(localStorage.getItem("kanban-board")) || []
   );
 
+  // bid=board id, cid= card id
+  
   const [targetCard, setTargetCard] = useState({
     bid: "",
     cid: "",
