@@ -42,9 +42,6 @@ function App() {
     tempBoards[index].cards.push({
       id: Date.now() + Math.random() * 2,
       title,
-      labels: [],
-      date: "",
-      tasks: [],
     });
     setBoards(tempBoards);
   };

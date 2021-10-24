@@ -8,7 +8,7 @@ import "./Card.css";
 function Card(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const { id, title, tasks, labels } = props.card;
+  const { id, title } = props.card;
 
 
   return (

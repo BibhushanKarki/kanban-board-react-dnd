@@ -21,7 +21,6 @@ function Dropdown(props) {
       document.removeEventListener("click", handleClick);
     };
   });
-
   return (
     <div
       ref={dropdownRef}
